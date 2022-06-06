@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite - Responsivo - Construtora</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo">nome<span>construtora</span></a>
+
+    <nav class="navbar">
+        <a href="#home">início</a>
+        <a href="#about">sobre</a>
+        <a href="#services">serviços</a>
+        <a href="#projects">projetos</a>
+        <a href="#pricing">planos</a>
+        <a href="#contact">contatos</a>
+        <a href="#blogs">experiências</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>             
+        <div id="info-btn" class="fas fa-info-circle"></div>             
+        <div id="search-btn" class="fas fa-search"></div>            
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="Busque aqui..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <form action="" class="login-form">
+        <h3>entre em sua Conta</h3>
+        <input type="email" placeholder="Coloque o seu E-mail" class="box">
+        <input type="password" placeholder="Coloque a sua Senha" class="box">
+        <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">lembrar</label>
+            <a href="#">esqueceu a senha?</a>
+        </div>
+        <input type="submit" value="Entrar" class="btn">
+        <p>não tem uma conta? <a href="#">crie uma!</a></p>
+
+    </form>
+
+</header>
+
+<div class="contact-info">
+
+    <div id="close-contact-info" class="fas fa-times"></div>
+
+    <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>Telefone</h3>
+        <p>+123-9999-8999</p>
+        <p>+123-9997-8999</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>E-mail</h3>
+        <p>santannaMSS@live.com</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Endereço</h3>
+        <p>Rua x, Nº x</p>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</div>
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                <div class="content">
+                    <h3>os melhores serviços</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsum, hic amet qui accusantium velit.</p>
+                    <a href="#about" class="btn">começe agora</a>
+                </div>
+            </section>
+        
+            <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                <div class="content">
+                    <h3>seus sonhos se tornando realidade</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsum, hic amet qui accusantium velit.</p>
+                    <a href="#about" class="btn">começe agora</a>
+                </div>
+            </section>
+        
+            <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                <div class="content">
+                    <h3>planeje da melhor forma</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsum, hic amet qui accusantium velit.</p>
+                    <a href="#about" class="btn">começe agora</a>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> sobre nós </h1>
+
+    <div class="row">
+
+        <div class="video">
+            <video src="images/about-vid.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h3>Aqui você ira encontrar os melhores serviços!</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nostrum, laudantium impedit odio ipsam quam.</p>
+            <a href="#services" class="btn">saiba mais</a>
+        </div>
+
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>10+</h3>
+            <p>anos de experiência</p>
+        </div>
+
+        <div class="box">
+            <h3>1500+</h3>
+            <p>trabalhos realizados</p>
+        </div>
+
+        <div class="box">
+            <h3>790+</h3>
+            <p>clientes satisfeitos</p>
+        </div>
+        
+        <div class="box">
+            <h3>450+</h3>
+            <p>trabalhadores</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="services" id services>
+
+    <h1 class="heading"> Nossos Serviços </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/service-1.png" alt="">
+            <h3>construção civil</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        
+        <div class="box">
+            <img src="images/service-2.png" alt="">
+            <h3>reforma de casas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-3.png" alt="">
+            <h3>Projetos Arquitetônicos/h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-4.png" alt="">
+            <h3>Suprimento de material</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-5.png" alt="">
+            <h3>consultores especializados</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-6.png" alt="">
+            <h3>design de interiores</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-7.png" alt="">
+            <h3>manutenção do edifício</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-8.png" alt="">
+            <h3>reforma de prédio</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+</section>
+
+    <section class="projects" id="projects">
+
+        <h1 class="heading"> nossos projetos </h1>
+
+        <div class="box-container">
+
+            <a href="images/project-1.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-2.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>....</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-3.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-4.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-5.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-6.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="reviews">
+
+        <h1 class="heading"> opinião dos clientes </h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="info">
+                            <h3>Ricardo Almeida</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="info">
+                            <h3>Joyce Santos</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="info">
+                            <h3>Arthur Alves</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="info">
+                            <h3>Aline Pereira</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-5.png" alt="">
+                        <div class="info">
+                            <h3>Matheus Machado</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam, maxime amet suscipit molestiae ducimus.</p>
+                    <div class="user">
+                        <img src="images/pic-6.png" alt="">
+                        <div class="info">
+                            <h3>Vanessa Sakura</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading"> Nossos Planos </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-home"></i>
+                <h3>Plano Básico</h3>
+                <div class="price"><span>$</span>250<span>/mo</span></div>
+                <div class="list">
+                    <p>Design de Interiores</p>
+                    <p>Reforma</p>
+                    <p>Oferta de Material</p>
+                    <p>Manutenção</p>
+                    <p>Suporte 24/7</p>
+                </div>
+                <a href="#" class="btn">escolha</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-building"></i>
+                <h3>Plano Médio</h3>
+                <div class="price"><span>$</span>650<span>/mo</span></div>
+                <div class="list">
+                    <p>Design de Interiores</p>
+                    <p>Reforma</p>
+                    <p>Oferta de Material</p>
+                    <p>Manutenção</p>
+                    <p>Suporte 24/7</p>
+                </div>
+                <a href="#" class="btn">escolha</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-city"></i>
+                <h3>Plano Total Cobertura</h3>
+                <div class="price"><span>$</span>1200<span>/mo</span></div>
+                <div class="list">
+                    <p>Design de Interiores</p>
+                    <p>Reforma</p>
+                    <p>Oferta de Material</p>
+                    <p>Manutenção</p>
+                    <p>Suporte 24/7</p>
+                </div>
+                <a href="#" class="btn">escolha</a>
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> fale conosco </h1>
+    
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1837.3460156566161!2d-43.374670910542534!3d-22.924727395908807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f0dffefe67%3A0x3b636dd141843cb5!2sEstr.%20dos%20Bandeirantes%2C%2028%20-%20Taquara%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022710-160!5e0!3m2!1spt-BR!2sbr!4v1647080410817!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+    
+        <form action="">
+            <h3>Entre em contato</h3>
+            <input type="text" placeholder="nome" class="box">
+            <input type="email" placeholder="e-mail" class="box">
+            <input type="number" placeholder="telefone" class="box">
+            <textarea name="" placeholder="mensagem" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="sumbit" value="enviar" class="btn">
+        </form>
+    
+    </div>
+
+</section>
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Nossas experiências </h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>título</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>título</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>título</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>título</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>título</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores distinctio aspernatur asperiores dicta hic!</p>
+                        <a href="#" class="btn">saiba mais</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="logo-container">
+        <div class="swiper logo-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"><img src="images/client-logo-1.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-2.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-3.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-4.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-5.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-6.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        
+        <div class="links">
+            <a class="btn" href="#home">início</a>
+            <a class="btn" href="#about">sobre nós</a>
+            <a class="btn" href="#services">serviços</a>
+            <a class="btn" href="#projects">projetos</a>
+            <a class="btn" href="#pricing">planos</a>
+            <a class="btn" href="#contact">contatos</a>
+            <a class="btn" href="#blogs">experiência</a>
+        </div>
+
+        <div class="credit"> Matheus Sant'Anna </div>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.projects .box-container'));
+</script>
+    
+</body>
+</html>
